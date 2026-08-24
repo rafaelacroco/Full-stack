@@ -1,0 +1,38 @@
+p{
+    font-size: 20pt;
+}
+h1{
+    font-size: 50pt;
+}
+
+.menu{
+    background-color: cadetblue;
+    color: azure;
+}
+/*Alterações de cores do texto*/
+.azul{   color: blue; background-color: cadetblue;}
+.verde{  color: darkgreen; background-color: rgb(186, 197, 157);}
+.amarelo{color: burlywood;}
+#pt_amarelo{
+    background-color: brown;
+}
+#pt_amarelo:hover{
+    background-color: coral;
+    color: brown;
+}
+.tam15{
+    font-size: 15pt;
+}
+.tam30{
+    font-size: 30pt;
+}
+
+div a{
+    text-decoration: none;
+}
+.menu:hover{
+    background-color: cornflowerblue;
+}
+div a:visited{
+color: brown;
+}
