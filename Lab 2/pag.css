@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+    color: cornflowerblue;
+    border: 2pt solid rgb(50, 100, 193); 
+}
+body {
+    background-color: rgb(211, 230, 247);
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    color: rgb(33, 54, 161);
+    background-color:aliceblue
+}
+.FEI:hover {
+    color:rgb(0, 94, 255)
+}    
+.FEI:visited {
+color: purple
+}
+/* Não está dando certo ;( */
+/*.FEI {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size:20pt
+}*/
+.jorgestreet:hover {
+    color: rgb(196, 4, 4)
+}
+.H-motion:hover {
+    color: rgb(98, 96, 96)
+}
+
