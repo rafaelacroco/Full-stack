@@ -30,4 +30,12 @@ color: purple
 .H-motion:hover {
     color: rgb(98, 96, 96)
 }
-
+.navegação {
+    background-color: rgb(1, 1, 53);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+}
+.navegação:hover {
+    color: rgb(23, 23, 108);
+}

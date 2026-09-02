@@ -1,3 +1,42 @@
 body {
     background-color:rgb(20, 20, 138)
 }
+.navegação {
+    background-color: rgb(180, 180, 248);
+    color: rgb(1, 1, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    position: relative;
+    right: -50pt;
+    top: 10;
+}
+td {
+    color: aliceblue;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th {
+    color: aliceblue;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+position: relative;
+top: 20pt;
+right: -50pt;
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22pt;
+    font-style: italic;
+    position: relative;
+    right: -50pt;
+    top: 10;
+}
+a{
+    color: cadetblue;
+}
+a:hover {
+    color: blanchedalmond;
+}
