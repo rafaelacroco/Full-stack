@@ -1,0 +1,85 @@
+body {
+    background-color: lightgrey;
+}
+p {
+    text-align: center;
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: indigo;
+}
+h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+.inline { display: inline;
+color: darkred;
+font-size: 10pt;
+}
+div {background-color: lightskyblue;}
+
+#sites {
+    color: black;
+    font-size: 10pt;
+    text-align: left;
+}
+#site{
+    background-color: yellow;
+    width: 290pt;
+    height: 70pt;
+    position: relative;
+    left: 420pt;
+    
+}
+a {
+    color: darkred;
+}
+h1 {text-align: center;
+font-size: 35pt;
+color: darkgreen;
+padding: 250pt;
+position: relative;
+top: -55pt;}
+p1{text-align: center;}
+.inlinee {
+display: inline;
+}
+#cabeçalho {
+    background-color: bisque;
+    border:solid 4pt darkblue;
+    
+}
+#d1 {
+    position: relative;
+    top: 5pt ;
+    left: 20px; /*distância borda esquerda*/
+}
+#d2 {
+    position: relative;
+    top: 5pt ;
+    right: -20px; /*distância borda esquerda*/
+}
+#d3 {
+    position: relative;
+    
+    left: 20px; /*distância borda esquerda*/
+}
+#d4 {
+    position: relative;
+    
+    right: -20px; /*distância borda esquerda*/
+}
+.inlineee {display: inline; background-color: bisque;}
+table {position: relative;
+left: 435pt;
+border: dashed red;
+color: red;}
+#b1{position: relative;
+left: 40;}
+#if {
+    position: relative;
+    left: 400pt;
+}
+#ifa {
+    position: relative;
+    left: 330pt;
+}
