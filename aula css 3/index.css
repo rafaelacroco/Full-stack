@@ -1,0 +1,78 @@
+.grid div {
+    background-color: blue;
+    padding: 10px;
+    margin: 5px; /*separa os elementos*/
+    color: aliceblue;
+    text-align: center;
+}
+.grid {
+    background-color: goldenrod;
+    display: grid;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: 20% 30% 20%;
+    gap: 10px; /*epaço entre as linhas da colonuna (grade)*/
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    /*grid-template-columns: 100px 200px 300px;*/
+}
+.topo {
+    background-color: rgb(212, 93, 8);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px; /*epaço entre as linhas da colonuna (grade)*/
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    margin: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+.menu {
+    background-color: rgb(5, 60, 105);
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 10px; /*epaço entre as linhas da colonuna (grade)*/
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+}
+
+.item{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    text-align: center;
+
+}
+#d1 {
+    grid-column-start: 10;
+    grid-column-end:7 ;
+    background-color: brown;
+    color: antiquewhite;
+}
+#d2 {
+    grid-column-start:81;
+    background-color: brown;
+    grid-column-end:9 ;
+}
+.linhas div {
+    background-color: rgb(36, 140, 71);
+    padding: 10px;
+    margin: 5px; /*separa os elementos*/
+    color: aliceblue;
+    text-align: center;
+}
+.linhas {
+    background-color: rgb(2, 65, 23);
+    display: grid;
+    grid-template-rows: 80px 100px
+}
+
