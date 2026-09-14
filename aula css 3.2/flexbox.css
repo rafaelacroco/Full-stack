@@ -1,0 +1,29 @@
+body {background-color: bisque;}
+header {background-color: bisque;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+h1{background-color: burlywood;}
+.imagem {background-color: brown;
+font-style: italic;
+color: aliceblue;}
+nav {background-color: rgb(148, 47, 11);
+display: flex;
+gap: 15px;
+justify-content: center;}
+a {background-color: chocolate;}
+section{background-color: black;
+height: 70px;
+display: flex;
+justify-content: end;
+flex-wrap: wrap; /*warp quebra de linha*/
+align-content: stretch;} 
+section div {color: antiquewhite;
+background-color: darkred;
+margin: 5px;
+text-align: center;}
+/*ORDER MANDA OS NÚMEROS PARA O FINAL, QUANDO É ATRIBUÍDO UM VALOR > 0*/
+#o1 {order: 2;
+flex-grow: 2;}
+#o2 {order: 1;}
+#f1 {flex-basis: 10px;}
