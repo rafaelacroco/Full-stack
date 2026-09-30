@@ -1,0 +1,80 @@
+body {background-color:lightgray ;}
+#cabecalho {
+    background-color: bisque;
+    border: 7px solid darkblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#texto1 {
+    font-size: 25pt;
+    color: darkgreen;
+}
+#barra {
+    background-color: skyblue;
+    font-weight: bold;
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#sessao1 {
+    color: indigo;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+#sessao2 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+#iframe1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+#sessao3 {justify-content: center;}
+#tabela {
+    position: relative;
+    left: 435pt;
+    border: dashed red;
+    border-color: darkred;
+    margin: 10px;
+}
+th {
+        color: red;
+    font-weight: bold;
+}
+#lista {
+    margin: 20px;
+    background-color: yellow;
+    width: 270pt;
+    height: 50pt;
+    position: relative;
+    left: 420pt;
+    text-align: center;
+}
+a {
+    color: darkred;
+}
+
+
+
+
+#rodape {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#prodape {
+    font-family: comic 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+    padding: 5px;
+}
