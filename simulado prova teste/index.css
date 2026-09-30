@@ -1,0 +1,74 @@
+#div1 {display: flex;
+justify-content: space-between;
+background-color:#FAF7F2 ;
+}
+#Marina1 {
+font-weight: 100;
+}
+#div2 {
+display: flex;
+gap: 10px;
+background-color:#FAF7F2 ;
+}
+
+header {
+background-color:#FAF7F2 ;
+display: flex;
+justify-content: space-around;
+}
+
+#div3 {
+display: flex;
+flex-direction: column;
+
+}
+#div4 {
+display: flex;
+flex-direction: column;
+margin: 50px;
+text-align: center;
+}
+#hm {font-size: 30pt;}
+#hd {
+color: chocolate;
+font-size: 14pt;
+}
+#p1 {
+font-size: 12pt;
+}
+#div5 {
+display: flex;
+justify-content: space-around;}
+#p2 {
+background-color:#3F6C51 ;
+color: white;
+border-radius: 20px;
+padding: 7px;
+height: 20px;
+font-size: 10pt;
+
+}
+#p3 {
+color: #3F6C51;
+border-style: solid;
+border-color: #3F6C51;
+border-radius: 20px;
+padding: 5px;
+font-size: 10pt;
+}
+#div6 {
+display: flex;
+justify-content: space-around;
+}
+#s1{
+display: flex;
+flex-direction: column;
+}
+ul {
+display: flex;
+gap: 5px;
+}
+li {background-color: #FAF7F2;
+border-style: solid;
+border-color: #FAF7F2;
+border-radius: 20px;}
