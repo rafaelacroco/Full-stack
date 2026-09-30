@@ -1,0 +1,76 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10pt ; /*TAMANHO DA FONTE*/
+    background-color: wheat; /*COR DO FUNDO*/
+    color:brown ; /*COR DO TEXTO*/
+    font-weight: bold; /*NEGRITO*/
+    text-decoration: dashed;
+    margin: 15px; /*separa os elementos*/
+}
+h1 {
+    font-style: italic;
+    padding: 10px;
+    width: 100px;
+    height: 0px;
+}
+.tipos {
+    text-align: center;
+    border: 5px solid;
+    border-radius: 7px; /*arredonda as bordas*/
+}
+/*border tem ainda dashed, groove, ridge, inset, hidden, mix (mistura)*/
+#tipo2 {
+    display: block; /**/
+    border: 5px dotted goldenrod;
+}
+#tipo3 {
+    border: 5px double blue;
+    box-shadow: 10px 5px 7px; /*sombra, caso não coloque o terceiro Nº a sombra fica sólida*/
+}
+#tipo4 {
+    display: inline;
+    border: 5px outset;
+}
+.teste {
+    position: relative;
+    top: 10pt;
+    right: 100pt;
+}
+.teste1 {
+    position: absolute;
+    top: 10pt;
+    left: 100pt;
+}
+.teste2 {
+    position: fixed;
+    top: 10pt;
+    right: 100pt;
+    z-index: 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px; /*epaço entre as linhas da colonuna (grade)*/
+    justify-content: space-between;
+    align-items: end;
+}
+.grid2 {
+    grid-column-start: auto;
+    grid-column-end: auto;
+}
+.grid3 {
+    display: grid;
+    grid-template-areas: auto;
+}
+#s1 {grid-area: auto;} /*os grid area tem que estar na orde da sequencia que você irá colocar no template*/
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    flex-wrap: wrap; /*warp quebra de linha*/
+}
+/*ORDER MANDA OS NÚMEROS PARA O FINAL, QUANDO É ATRIBUÍDO UM VALOR > 0*/
+#o1 {order: 2;
+flex-grow: 2;}
+#o2 {order: 1;}
+#f1 {flex-basis: 10px;}

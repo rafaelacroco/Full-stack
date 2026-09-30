@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo de Estrutura HTML</title>
+    <!-- Aqui você vincula o seu arquivo CSS (ex: style.css) -->
+</head>
+<body>
+
+    <!-- TAG H1 -->
+    <h1>Este é o Título H1</h1>
+
+    <!-- TAG P (Padrão) -->
+    <p>Este é um parágrafo padrão que receberá o estilo principal.</p>
+
+    <!-- CLASSE .tipos E IDs -->
+    <p class="tipos">Parágrafo apenas com a classe .tipos</p>
+    <p class="tipos" id="tipo2">Parágrafo com ID #tipo2 e classe .tipos</p>
+    <p class="tipos" id="tipo3">Parágrafo com ID #tipo3 e classe .tipos</p>
+    <p class="tipos" id="tipo4">Parágrafo com ID #tipo4 e classe .tipos</p>
+
+    <!-- TESTE DE POSICIONAMENTO -->
+    <h2>Testes de Position</h2>
+    <div>
+        <p class="teste">Elemento com position: relative (.teste)</p>
+        <p class="teste1">Elemento com position: absolute (.teste1)</p>
+    </div>
+    <div class="teste2">Elemento FIXO (.teste2)</div>
+
+    <!-- TESTE DE GRID -->
+    <h2>Teste de Grid (.grid)</h2>
+    <div class="grid">
+        <div>Item Normal</div>
+        <div class="grid2">Item com .grid2</div>
+        <div>Item Normal</div>
+        <div>Item Normal</div>
+        <div>Item Normal</div>
+    </div>
+
+    <!-- TESTE DE GRID 3 -->
+    <h2>Teste de Grid com Áreas (.grid3)</h2>
+    <div class="grid3">
+        <div id="s1">Item usando grid-area (#s1)</div>
+    </div>
+
+    <!-- TESTE DE FLEXBOX -->
+    <h2>Teste de Flexbox (.flexbox)</h2>
+    <div class="flexbox">
+        <div>Item Flex (Normal)</div>
+        <div id="o1">Item Flex #o1 (Vai para o final)</div>
+        <div id="o2">Item Flex #o2 (Vem antes do o1)</div>
+        <div id="f1">Item Flex #f1 (Basis 10px)</div>
+        <div>Item Flex (Normal)</div>
+    </div>
+
+</body>
+</html>
