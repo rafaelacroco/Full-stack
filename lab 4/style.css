@@ -1,0 +1,19 @@
+body {
+    background-color: blanchedalmond;
+    
+}
+input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tamanho {
+    height: 50px;
+    width: 200px;
+}
+p {
+    text-align: center;
+    font-size: 25pt;
+
+}
