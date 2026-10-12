@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document 1</title>
+        <link rel="stylesheet" href="treino1.css">
+    </head>
+    <body>
+        <h1>Jogo de Adivinhação</h1>
+        <!--para testar o funcionamento do site
+        <span id="numero_aleatorio"></span>-->
+        <div>
+            <!--entrada de um número-->
+            <input class="tamanho" id="numero" type="number">
+        </div>
+        <div>
+            <!--botão para comparar-->
+            <input class="tamanho" id="click" type="button" value="Clique aqui!" onclick="comparar()">
+        </div>
+        <!--resultado dependente do número (maior, menir ou igual)-->
+        <span id="resultado"></span>
+
+        <section>
+            <!--Tentativas grandes -->
+            <p>Tentativas grandes</p>
+            <!--Números que tentou -->
+            <span class="num" id="num_maior"></span>
+
+            <!--Tentativas pequenas -->
+            <p>Tentativas pequenas</p>
+            <!--Números que tentou -->
+            <span class="num" id="num_menor"></span>
+        </section>
+
+
+
+
+        <script src="treino1.js" type="text/JavaScript"></script>
+    </body>
+</html>
