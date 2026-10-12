@@ -1,0 +1,16 @@
+BASE
+
+Window.alert ()
+Window.confirm()
+Window.prompr()
+
+Armazenar dados:
+LET <valor atribuido>
+CONST <valor fixo>
+/*number (infinity, NaN), string, boolean, function*/
+CONSOLE.LOG() <imprime mensagens>
+
+Tratamento de dados:
+
+
+Operações com dados:
