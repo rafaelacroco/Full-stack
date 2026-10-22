@@ -43,7 +43,7 @@ let canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 let r1 = new retangulo(10,10,50,50, "pink", "purple");
 let r2 = new retangulo(60,60,100,100, "black", "yellow");
-let r3 = new retangulo(160,160,50,50, "pink", "purple");
+let r3 = new retangulo(160,170,50,50, "pink", "purple");
 let r4 = new retangulo(210,60,100,100, "black", "yellow");
 let r5 = new retangulo(310,10,50,50, "pink", "purple");
 r1.desenha();
@@ -66,8 +66,29 @@ function animacao() {
     r1.x += auxiliar;
     //desenha novamente 
     r1.desenha();
+    r3.desenha();
     requestAnimationFrame(animacao);
 
 }
-
 animacao();
+
+document.addEventListener("keydown", function(evento) {
+    console.log(evento);
+    if (evento.key == "ArrowUp"){r1.y -= 1};
+    if (evento.key == "ArrowDown"){r1.y += 1};
+    if (evento.key == "ArrowLeft"){r1.y -= 1};
+    if (evento.key == "ArrowRight"){r1.y += 1};
+
+})
+
+document.addEventListener("mousemove", function(evento) {
+    console.log(evento);
+    let rect = canvas.getBoundingClientRect();
+    let x_mouse = evento.clientX - rect.left;
+    let y_mouse = evento.clientY - rect.top;
+    console.log(x_mouse, y_mouse);
+
+    r3.x = x_mouse;
+    r3.y = y_mouse
+
+})
