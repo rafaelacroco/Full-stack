@@ -25,10 +25,14 @@ console.log("olá, mundo!".rainbow);
 
 let http = require("http");
 var express = require("express");
+let bodyParser = require("body-parser")
 
 var app = express();
-
 app.use(express.static("./public"));
+app.use(bodyParser.urlencoded({extended: false }))
+app.use(bodyParser.json())
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
 var server = http.createServer(app);
 
@@ -36,3 +40,26 @@ server.listen(3000);
 
 
 console.log("servidor funcionando...".rainbow)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+app.post("/cadastrar", function(req, res){
+        let nome = req.body.nome;
+        let sobrenome = req.body.sobrenome;
+        let email = req.body.email;
+        let senha = req.body.senha;
+        
+        console.log(nome, sobrenome, email, senha);
+        res.render("resposta.ejs", {nome_template: "rafa", sobrenome_template: "teste"});
+})
+
+app.get("/cadastrar", function(req, res){
+        let nome = req.query.nome;
+        let sobrenome = req.query.sobrenome;
+        let email = req.query.email;
+        let senha = req.query.senha;
+      
+        console.log(nome, sobrenome, email, senha);
+        res.render("resposta.ejs", {nome_template: "rafa", sobrenome_template: "teste"});
+})
+
